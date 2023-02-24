@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanye quotes</title>
+    <style>
+        h1 {
+            text-align: center;
+            font-weight: 700;
+            font-size: 30px;
+            color: gray;
+            font-family: sans-serif;
+        }
+        .quote-btn {
+            display: flex;
+            padding: 10px 12px;
+            border: 2px solid rgb(223, 112, 134);
+            color: gray;
+            background-color: aliceblue;
+            margin: 0 auto;
+            font-weight: 600;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>Kanye Quotes</h1>
+        <button class="quote-btn" onclick="quotes()">Refresh</button>
+        <blockquote id="quotes">
+        </blockquote>
+    </section>
+
+    <!-- javascript-->
+    <script src="js/api.js"></script>
+</body>
+</html>
